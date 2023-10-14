@@ -1,11 +1,11 @@
 import bgmovie from "./bgmovie.jpg";
 import "./style.css";
-import Payinfo from "./Payinfo";
-import ListRow from "./ListRow";
+import Payinfo from "./PayTicket";
+import ListRow from "./ListSeat";
 
 export default function DatVe() {
     return (
-        <div className="main-content">
+        <div className="content">
             <div className="overplay"></div>
             <div
                 className="booking-background"

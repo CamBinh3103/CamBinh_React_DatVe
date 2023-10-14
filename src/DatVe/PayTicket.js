@@ -14,7 +14,7 @@ export default function Payinfo() {
             type: XOA_GHE,
             payload: arrDaChon.filter((g) => g !== ghe),
         });
-        message.success(`Xóa ghế ${ghe.soGhe} thành công!`);
+        message.success("Đã xóa ghế thành công!");
     };
 
     let renderPayTicket = () => {
@@ -64,9 +64,9 @@ export default function Payinfo() {
                     arrSeat: updatedArrSeat,
                 },
             });
-            message.success(" Đã thanh toán thành công!");
+            message.success("Bạn đã thanh toán thành công!");
          }else{
-            message.error("Vui lòng chọn ghế!")
+            message.error("Vui lòng chọn ghế trước khi thanh toán!")
          } 
     };
 

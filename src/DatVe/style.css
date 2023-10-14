@@ -1,5 +1,5 @@
 
-.main-content {
+.content {
     font-family: "fontGame";
     position: relative;
     color: white;
@@ -107,10 +107,10 @@
     margin: 5px 0;
 }
 .title-pay{
-    color: rgb(198, 159, 29);
+    color: rgb(221, 120, 70);
     font-weight: 700;
 }
 .title-big{
-    color: rgb(198, 159, 29);
+    color: rgb(221, 120, 70);
     font-weight: 700;
 }

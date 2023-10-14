@@ -17,7 +17,7 @@ function ListSeat() {
         } else {
             dispatch({ type: CHON_GHE, payload: [...arrDaChon, ghe] });
         }
-        message.success(` Chọn ghế ${ghe.soGhe} thành công!`)
+        message.success("Chọn ghế thành công!")
     };
 
     let renderListSeat = (arr) => {
